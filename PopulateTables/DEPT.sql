@@ -1,0 +1,18 @@
+SET DEFINE OFF;
+Insert into STUDENT.DEPT
+   (DEPTNO, DNAME, LOC)
+ Values
+   (10, 'ACCOUNTING', 'NEW YORK');
+Insert into STUDENT.DEPT
+   (DEPTNO, DNAME, LOC)
+ Values
+   (20, 'RESEARCH', 'DALLAS');
+Insert into STUDENT.DEPT
+   (DEPTNO, DNAME, LOC)
+ Values
+   (30, 'SALES', 'CHICAGO');
+Insert into STUDENT.DEPT
+   (DEPTNO, DNAME, LOC)
+ Values
+   (40, 'OPERATIONS', 'BOSTON');
+COMMIT;

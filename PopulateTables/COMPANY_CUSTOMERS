@@ -1,0 +1,26 @@
+SET DEFINE OFF;
+Insert into STUDENT.COMPANY_CUSTOMERS
+   (CUST_ID, CUST_NAME, CUST_CITY)
+ Values
+   (10, 'Dan', 'Des Moines');
+Insert into STUDENT.COMPANY_CUSTOMERS
+   (CUST_ID, CUST_NAME, CUST_CITY)
+ Values
+   (20, 'Libby', 'Atlanta');
+Insert into STUDENT.COMPANY_CUSTOMERS
+   (CUST_ID, CUST_NAME, CUST_CITY)
+ Values
+   (30, 'Janet', 'Woodland');
+Insert into STUDENT.COMPANY_CUSTOMERS
+   (CUST_ID, CUST_NAME, CUST_CITY)
+ Values
+   (40, 'Emily', 'Omaha');
+Insert into STUDENT.COMPANY_CUSTOMERS
+   (CUST_ID, CUST_NAME, CUST_CITY)
+ Values
+   (50, 'Thom', 'Windsor');
+Insert into STUDENT.COMPANY_CUSTOMERS
+   (CUST_ID, CUST_NAME, CUST_CITY)
+ Values
+   (60, 'Robin', 'Denver');
+COMMIT;
